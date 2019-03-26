@@ -1,0 +1,20 @@
+/* .navbar{
+  background: #120a8f;
+} */
+
+.nav-link, .navbar-brand{
+  color: white;
+}
+
+.nav-link{
+  margin-right: 1em !important
+}
+
+.nav-link:hover{
+ background: #f4f4f4;
+ color: #007bff;
+}
+
+.navbar-collapse{
+ justify-content: flex-end;
+}
