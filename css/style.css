@@ -1,20 +1,31 @@
-/* .navbar{
-  background: #120a8f;
-} */
+.navbar{
+  background: #007bff;
+}
 
 .nav-link, .navbar-brand{
   color: white;
 }
 
 .nav-link{
-  margin-right: 1em !important
+  margin-right: 1em !important;
 }
 
-.nav-link:hover{
+a.nav-link span {padding: 5px;}
+
+a.nav-link:hover span{
  background: #f4f4f4;
  color: #007bff;
 }
 
 .navbar-collapse{
  justify-content: flex-end;
+}
+
+.header{
+  background-image: url('../images/background.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
 }
