@@ -1,5 +1,5 @@
 .navbar{
-  background: #007bff;
+  background: #ff9900;
 }
 
 .nav-link, .navbar-brand{
@@ -10,11 +10,11 @@
   margin-right: 1em !important;
 }
 
-a.nav-link span {padding: 5px;}
+a.nav-link span {padding: 18px}
 
 a.nav-link:hover span{
  background: #f4f4f4;
- color: #007bff;
+ color: #ff9900;
 }
 
 .navbar-collapse{
@@ -29,3 +29,33 @@ a.nav-link:hover span{
   height: 100vh;
   width: 100vw;
 }
+
+.overlay{
+ position: absolute;
+ min-height: 100%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
+ background: rgba(244, 244, 244, 0.7);
+}
+
+.description{
+  position: absolute;
+  top: 30%;
+  color: #ff9900;
+  margin: auto;
+  padding: 2px;
+}
+
+.description h1{
+  text-shadow: #000000 2px 2px 2px;
+}
+
+.description p{
+  color:#666;
+  font-size: 20px;
+  width: 50%;
+  line-height: 1.5;
+  font-weight: 600;
+ }
+
