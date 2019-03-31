@@ -3,55 +3,84 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Сайт-визитка</title>
+  <title>Сайт резюме</title>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|PT+Sans+Caption:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-
-  <nav class="navbar navbar-expand-lg fixed-top">
-    <a class="navbar-brand" href="#">Резюме</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50" style=" fill:#fff;"><g id="surface1"><path d="M 0 7.5 L 0 12.5 L 50 12.5 L 50 7.5 Z M 0 22.5 L 0 27.5 L 50 27.5 L 50 22.5 Z M 0 37.5 L 0 42.5 L 50 42.5 L 50 37.5 Z "></path></g></svg></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-4">
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <span>
-              Обо мне
-            </span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <span>
-            В чем участвовал
-            </span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <span>
-            Умения
-            </span>
-          </a>
-        </li>
-      </ul>
+  <div class="header">
+    <div class="header_title">Войтович Олег</div>
+    <div class="header_description">Одностраничный сайт-резюме</div>
+    <div class="header_icon">
+      <a href="#anc"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
     </div>
-  </nav>
-  <header class="header"></header>
-  </header>
+  </div>
 
+  <div class="about">
+    <div class="title" id="anc">Обо мне</div>
+    <div class="about_img"><img src="img/me.png" alt="Oleg Vojtovich"></div>
+    <div class="about_description"><p><b>Войтович Олег Валентинович</b><br> <b>Дата рождения:</b> 25.03.2000<br> <b>Телефон:</b> +7 (996) 354-84-67<br> <b>E-mail:</b> oleg5420@yandex.ru<br><br> <b>Образование:</b><br> 2017 – наст. вр. - Ивановский государственный химико-технологический университет. Факультет техники, управления и цифровой инфраструктуры. <br>Специальность: Информационные системы и технологии.</p></div>
+  </div>
 
+  <div class="additional_info">
+    <div class="container">
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <script src="js/script.js"></script>
+    <div class="title">Дополнительная информация</div>
+
+    <div class="row">
+      <div class="col-1">
+        <div class="additional_img"><img src="img/SpaceApps.png" alt="Space Apps" style="width: 360px"></div>
+        <div class="additional_title"><a href="https://github.com/WannaBeYourDrug/SpaceApps2018" target="_blank">Space Apps</a></div>
+        <div class="additional_text"><p>Участвовал международном хакатоне - International Space Apps Challenge. Разрабатывали с командой сайт, на котором можно было узнавать о всех актуальных пожарах и их силе, которые в своё время показаны на карте мира.</p></div>
+      </div>
+
+      <div class="col-1">
+        <div class="additional_img"><img src="img/Hakvelon.png" alt="Hakvelon" style="width: 360px"></div>
+        <div class="additional_title"><a href="https://github.com/WannaBeYourDrug/Hakvelon2018" target="_blank">Hakvelon</a></div>
+        <div class="additional_text"><p>Участвовал в хакатоне от компании «Аквелон», который был посвящен теме здоровья. Разрабатывали веб-приложение по подсчету калорий, с объемной базой данных еды.</p></div>
+      </div>
+    </div>
+    </div>
+    </div>
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-2">
+          <p class="footer_name">Войтович Олег</p>
+          <p>Первый сайт</p>
+        </div>
+
+        <div class="col-2">
+          <p class="footer_social">Мои профили в социальных сетях:</p>
+          <p class="footer_social_icons">
+            <a href="#" target="_blank">
+              <i class="fa fa-vk" aria-hidden="true"></i>
+            </a>
+            <a href="#" target="_blank">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="#" target="_blank">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+            <a href="#" target="_blank">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+          </p>
+        </div>
+
+        <div class="col-2">
+          <div><a href="#" class="button" target="_blank">Связаться ВКонтакте</a></div>
+          <p>Здесь со мной можно связаться<br> и узнать всё что необходимо</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
 </body>
 
 </html>
