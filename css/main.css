@@ -8,6 +8,10 @@ img {
   display: inline-block;
 }
 
+a {
+  transition: 0.2s ease-out;
+}
+
 .title {
   font-size: 46px;
   margin-bottom: 60px;
