@@ -305,6 +305,14 @@ p.footer_social_icons a:hover {
     box-sizing: border-box;
   }
 
+  .about_img {
+    display: none;
+  }
+
+.title {
+  font-size: 38px;
+}
+
   .col-2 {
     width: 100%;
     margin: 0;
@@ -319,6 +327,6 @@ p.footer_social_icons a:hover {
     text-align: center;
     margin: 0;
     border: none;
-    border-top: 10px solid #006eff;
+    /* border-top: 10px solid #006eff; */
   }
 }
